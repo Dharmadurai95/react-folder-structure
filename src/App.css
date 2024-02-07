@@ -1,0 +1,34 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+.folder{
+  display: flex;
+    max-width: 200px;
+    justify-content: space-between;
+    background: rgb(163 158 154);
+    color: black;
+}
+.button {
+  color: inherit;
+  background-color: white;
+  outline: none;
+  border: none;
+}
+
+.childNode {
+  margin-left: 10px;
+}
+.fileName {
+  display: flex;
+  max-width: 200px;
+  background-color: rgb(163 158 154);
+}
+input[type='text']{
+  display: block;
+}
